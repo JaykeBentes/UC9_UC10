@@ -1,0 +1,36 @@
+<ng-template #content let-offcanvas>
+	<div class="offcanvas-header">
+		<h4 class="offcanvas-title"> 
+            <h2>Menu</h2>
+        </h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')">
+            <img src="../../../../assets/img/xmenu-40.png" alt="close">
+        </button>
+	</div>
+	<div class="offcanvas-body">
+		<ul class="menu-text">
+            <li>
+                <button mat-menu-item>
+                    <a href="#">Categorias</a>
+                </button>
+            </li>
+            <li>
+                <button mat-menu-item>
+                    <a href="#">Comunidade</a>
+                </button>
+            </li>
+            <li>
+                <button mat-menu-item>
+                    <a href="#">Novidades</a>
+                </button>
+            </li>
+        </ul>
+	</div>
+    <div class="text-end">
+    <button type="button" class="btn btn-outline-dark" (click)="offcanvas.close('Close click')">Close</button>
+</div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">
+    <img src="../../../assets/img/cardápio-40.png" alt="menu-hamburguer">
+</button>

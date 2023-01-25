@@ -3,14 +3,37 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { HeaderComponent } from './home/header/header.component';
+import { CarrosselComponent } from './home/carrossel/carrossel.component';
+import { JogosComponent } from './home/jogos/jogos.component';
+import { FooterComponent } from './home/footer/footer.component';
+import { SanduicheComponent } from './home/header/sanduiche/sanduiche.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common'; 
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    CarrosselComponent,
+    JogosComponent,
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    CommonModule,
+    SanduicheComponent
+
   ],
   providers: [],
   bootstrap: [AppComponent]

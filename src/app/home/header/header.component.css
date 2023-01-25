@@ -1,0 +1,126 @@
+header {
+    max-width: 100%;
+    background: rgb(0,0,0);
+    background:linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(14,14,62,1) 50%, rgba(28,18,88,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
+}
+app-sanduiche {
+    display: none;
+}
+.logo img {
+    height: 80px;
+    width: auto;
+}
+nav {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    padding: 10px;
+    margin: 0 10px;
+}
+nav li a {
+    color: #EBF2FA;
+    text-decoration: none; 
+    background-color: #427AA1;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-text {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+nav .menu-text a:hover {
+    color: #032D58;
+    background-image: linear-gradient(to right, #86b6d8be, #ebf2fabe);
+    transition: 0.8s;
+}
+.menu1 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+.menu2 {
+    display: flex;
+}
+.menu2 li a  {
+    background-color: transparent
+    ;
+}
+.menu2 .icon-text{
+    display: none;
+}
+.menu2 img {
+    height: 50px;
+    width: auto;
+}
+.menu2 img:hover {
+    transform: translate(10px, 5px);
+}
+
+@media screen and (max-width: 1180px) {
+    header {
+        padding: 3px;
+        justify-content: space-evenly;
+    }
+    .logo img {
+        height: 65px;
+        width: auto;
+    }
+    nav li {
+        padding: 4px;
+        margin: 0 4px;
+    }
+    .menu-text {
+        font-size: 0.9em;
+    }
+    .menu2 img {
+        height: 40px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 896px) {
+    .logo img {
+        height: 55px;
+        width: auto;
+    }
+    ul {
+        padding: 3px;
+    }
+    .menu-img li {
+        margin: 0;
+        padding: 0;
+    }
+    .menu2 img {
+        height: 40px;
+        width: auto;
+    }
+    .menu1 {
+        display: none;
+        z-index: 1000;
+        height: 250px;
+    }
+    .mobile {
+        display: flex;
+        background: transparent;
+        border: transparent;
+        margin: 20px;
+    }
+    app-sanduiche {
+        display: block;
+    }
+}

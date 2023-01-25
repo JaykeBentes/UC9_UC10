@@ -1,0 +1,34 @@
+
+ngb-carousel {
+    margin: 20px 0;
+}
+.picsum-img-wrapper img {
+    height: 320px;
+    width: 100%;
+}
+.carousel-caption button {
+    background-color: transparent;
+    border: transparent;
+}
+.carousel-caption a {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #EBF2FA;
+    background-color: #427AA1;
+    border-radius: 12px;
+    padding: 8px;
+}
+.carousel-caption a:hover {
+    color: #032D58;
+    background-image: linear-gradient(to right, #86b6d8be, #ebf2fabe);
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 700px) {
+    .picsum-img-wrapper img {
+        height: 230px;
+        width: 100%;
+    }   
+}
