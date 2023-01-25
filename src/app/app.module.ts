@@ -4,16 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './home/header/header.component';
 import { CarrosselComponent } from './home/carrossel/carrossel.component';
 import { JogosComponent } from './home/jogos/jogos.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { SanduicheComponent } from './home/header/sanduiche/sanduiche.component';
-
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common'; 
+import { LoginComponent } from './login/login.component';
+import { HomepageComponent } from './homepage/homepage.component'; 
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { CommonModule } from '@angular/common';
     CarrosselComponent,
     JogosComponent,
     FooterComponent,
+    LoginComponent,
+    HomepageComponent,
     
   ],
   imports: [
@@ -32,8 +35,7 @@ import { CommonModule } from '@angular/common';
     BrowserAnimationsModule,
     FormsModule,
     CommonModule,
-    SanduicheComponent
-
+    SanduicheComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -72,7 +72,7 @@ nav .menu-text a:hover {
     transform: translate(10px, 5px);
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1222px) {
     header {
         padding: 3px;
         justify-content: space-evenly;
@@ -93,7 +93,7 @@ nav .menu-text a:hover {
         width: auto;
     }
 }
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 940px) {
     .logo img {
         height: 55px;
         width: auto;
