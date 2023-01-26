@@ -93,7 +93,7 @@ nav .menu-text a:hover {
         width: auto;
     }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 955px) {
     .logo img {
         height: 55px;
         width: auto;

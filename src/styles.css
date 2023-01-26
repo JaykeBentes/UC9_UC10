@@ -5,6 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100%;
+    margin-bottom:75px;
+    background:rgba(28,18,88,1)
+}
+body::after  {
+    content: "";
+    display: block;
+}
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -27,6 +36,10 @@
     background-color: #a8bbbf;
 }
 
-body{
-    background:rgba(28,18,88,1)
+@media screen and (max-width:950px) {
+    body {
+        margin-bottom: 120px;
+    }
 }
+
+

@@ -1,0 +1,160 @@
+#titulo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+#titulo1 h2 {
+    display: flex;
+    font-family:'Changa', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1em;
+    color: #EBF2FA;
+    text-indent: 10px;
+    margin: 20px;
+}
+.search {
+    position: relative;
+    right: 65px;
+    width: 450px;
+    background-color: black;
+    display: flex;
+}
+.search:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #427AA1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transform-origin: left;
+    transition: transform .25s;
+}
+.search:focus-within::before {
+    transform: scale(1);
+}
+.search input, .search button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #EBF2FA;
+}
+.input-pesquisa {
+    width: 100%;
+    padding: 10px;
+}
+.button-search {
+    display: grid;
+    place-items: center;
+    width: 50px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: color .25s;
+}
+
+#jogos {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-bottom: 30px;
+}
+.card {
+    height: 550px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px 3px;
+}
+.card img {
+    height: 300px;
+    width: 300px;
+}
+.card-body {
+    color: #EBF2FA;
+    font-family:'Changa', sans-serif;
+    font-weight: 400;
+}
+.card h5 {
+    font-size: 1.5em;
+}
+.card a {
+    display: flex;
+    justify-content: center;
+    color: #EBF2FA;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif; 
+    background-color: #427AA1;
+    border-radius: 10px;
+}
+.card a:hover {
+    color: #032D58;
+    background-image: linear-gradient(to right, #86b6d8be, #ebf2fabe);
+    transition: 0.8s;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 70px;
+}
+.page-link {
+    background-color: transparent;
+    border: transparent;
+    color: #EBF2FA;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+}
+.page-link:hover {
+    color: red;
+}
+
+@media screen and (max-width: 970px) {
+    #titulo1 {
+        display: block;
+    }
+    #titulo1 h2 {
+        display: block;
+        text-align: center;
+        text-indent: 50px;
+    }
+    .search {
+        position: relative;
+        left: 3%;
+        width: 400px;
+        margin: 0 auto;
+        background-color: black;
+    }
+    #jogos {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 650px) {
+    #jogos {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        height: 550px;
+        width: 400px;
+    }
+    .card img {
+        height: 400px;
+        width: 400px;
+    }
+    .card p {
+        display: none;
+    }
+    .card a {
+        margin-top: 20px;
+    }
+}

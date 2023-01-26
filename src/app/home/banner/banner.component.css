@@ -1,0 +1,68 @@
+.banner2 {
+    height: 280px;
+    background-image: url(../../../assets/img/pexels-ron-lach-7858743.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.conteudo-banner2 {
+    width: 490px;
+    height: 200px;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.posicionamento-banner2 {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 20px;
+}
+.conteudo-banner2 h1 {
+    color: #EBF2FA;
+    font-family:'Changa', sans-serif;
+    font-weight: 600;
+    font-size: 2.0em;
+    margin-top: 15px;
+}
+.conteudo-banner2 p {
+    color: #EBF2FA;
+    font-family:'Changa', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.banner2 a {
+    text-decoration: none;
+    color: #EBF2FA;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #427AA1;
+    border-radius: 15px;
+    padding: 8px;
+    position: relative;
+    right: 145px;
+}
+.banner2 a:hover {
+    color: #032D58;
+    background-image: linear-gradient(to right, #86b6d8be, #ebf2fabe);
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 730px) {
+    .conteudo-banner2 {
+        width: 480px;
+        background-color: hsla(0, 0%, 41%, 0.61);
+        border-radius: 20px;
+    }
+    .conteudo-banner2 h1 {
+        font-size: 1.6em;
+    }
+    .conteudo-banner2 p {
+        font-size: 1.1em;
+    }
+}

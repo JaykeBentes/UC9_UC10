@@ -1,4 +1,5 @@
 .rodape {
+    z-index: 1000;
     height: 75px;
     background-color: black;
     color: #EBF2FA;
@@ -59,6 +60,7 @@
 .icon-redes img:hover {
     transform: translate(10px, 5px);
 }
+
 @media screen and (max-width: 955px) {
     .rodape {
         display: block;

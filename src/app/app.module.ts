@@ -14,7 +14,8 @@ import { JogosComponent } from './home/jogos/jogos.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { SanduicheComponent } from './home/header/sanduiche/sanduiche.component';
 import { LoginComponent } from './login/login.component';
-import { HomepageComponent } from './homepage/homepage.component'; 
+import { HomepageComponent } from './homepage/homepage.component';
+import { BannerComponent } from './home/banner/banner.component'; 
 
 
 @NgModule({
@@ -22,10 +23,11 @@ import { HomepageComponent } from './homepage/homepage.component';
     AppComponent,
     HeaderComponent,
     CarrosselComponent,
-    JogosComponent,
     FooterComponent,
     LoginComponent,
     HomepageComponent,
+    BannerComponent,
+    JogosComponent,
     
   ],
   imports: [
@@ -36,6 +38,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     FormsModule,
     CommonModule,
     SanduicheComponent,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
