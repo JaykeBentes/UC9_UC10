@@ -17,6 +17,8 @@ import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BannerComponent } from './home/banner/banner.component'; 
 
+import { HttpClientModule } from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -37,8 +39,8 @@ import { BannerComponent } from './home/banner/banner.component';
     BrowserAnimationsModule,
     FormsModule,
     CommonModule,
-    SanduicheComponent,
-    
+    SanduicheComponent, 
+    HttpClientModule   
   ],
   providers: [],
   bootstrap: [AppComponent]
