@@ -11,54 +11,14 @@
         </span>
     </div>
 </section>
+
 <section id="jogos">
-    <div class="card">
-        <img src="../../../assets/img/battlefield-banner.png" class="card-img-top" alt="battlefield"/>
+    <div *ngFor="let Jogos of listaJogos" class="card">
+        <img [src]="Jogos.imagem" class="card-img-top" alt="battlefield"/>
         <div class="card-body">
             <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">BATTLEFIELD 2042</h5>
-            <p class="card-text">Jogo de tiro em primeira pessoa (FPS), publicado pela Electronic Arts, sendo o 10° da série Battlefield.</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="../../../assets/img/cyber77500x500.jpg" class="card-img-top" alt="cyberpunk"/>
-        <div class="card-body">
-            <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">CYBERPUNK 2077</h5>
-            <p class="card-text">Jogo de RPG de ação publicado pela CD Projekt, sendo jogado em um mundo aberto fictício de Cyberpunk e jogado pela perspectiva em primeira pessoa.</p>
-          
-        </div>
-    </div>
-    <div class="card">
-        <img src="../../../assets/img/elden-ring-500x500.jpg" class="card-img-top" alt="elden-ring"/>
-        <div class="card-body">
-            <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">ELDEN RING</h5>
-            <p class="card-text">Jogo de RPG de ação em terceira pessoa com um mundo aberto interativo, publicado pela Bandai Namco.</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="../../../assets/img/gta-5-button-2021-1639777058682.jpg" class="card-img-top" alt="gta-5"/>
-        <div class="card-body">
-            <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">GTA V</h5>
-            <p class="card-text">Grand Theft Auto V. É um jogo de ação aventura publicado pela Rockstar e o 7° da série GTA.</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="../../../assets/img/Need-for-Speed-Unbound.jpg" class="card-img-top" alt="need-for-speed"/>
-        <div class="card-body">
-            <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">NEED FOR SPEED UNNBOUN</h5>
-            <p class="card-text">Jogo de corrida publicado pela Electronic Arts, sendo o 25° jogo da franquia Need for Speed.</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="../../../assets/img/pokemon_visual_2x.jpg" class="card-img-top" alt="pokemon"/>
-        <div class="card-body">
-            <a href="#" class="btn btn-primary">Compre</a>
-            <h5 class="card-title">POKÉMON SCARLET AND VIOLET</h5>
-            <p class="card-text">Jogo publicado pela Nintendo, é um RPG em mundo aberto que inclui áreas urbanas e regiões selvagens e conta com 3 novos Pokémon iniciais.</p>
+            <h5 class="card-title">{{Jogos.title}}</h5>
+            <p class="card-text">{{Jogos.descricao}}.</p>
         </div>
     </div>
 </section>
