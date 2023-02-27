@@ -1,40 +1,60 @@
 {
-    "Jogos": [
-      { 
-        "id": 1,
-        "imagem": "assets/img/battlefield-banner.png",
-        "title": "Battlefield 2042", 
-        "descricao": "Jogo de tiro em primeira pessoa (FPS), publicado pela Electronic Arts, sendo o 10° da série Battlefield." 
+  "Jogos": [
+    {
+      "id": 1,
+      "imagem": "assets/img/battlefield-banner.png",
+      "title": "Battlefield 2042",
+      "descricao": "Jogo de tiro em primeira pessoa (FPS), publicado pela Electronic Arts, sendo o 10° da série Battlefield."
     },
-    { 
-        "id": 2,
-        "imagem": "assets/img/cyber77500x500.jpg",
-        "title": "CYBERPUNK 2077", 
-        "descricao": "Jogo de RPG de ação publicado pela CD Projekt, sendo jogado em um mundo aberto fictício de Cyberpunk e jogado pela perspectiva em primeira pessoa." 
+    {
+      "id": 2,
+      "imagem": "assets/img/cyber77500x500.jpg",
+      "title": "CYBERPUNK 2077",
+      "descricao": "Jogo de RPG de ação publicado pela CD Projekt, sendo jogado em um mundo aberto fictício de Cyberpunk e jogado pela perspectiva em primeira pessoa."
     },
-    { 
-        "id": 3,
-        "imagem": "assets/img/elden-ring-500x500.jpg",
-        "title": "ELDEN RING", 
-        "descricao": "Jogo de RPG de ação em terceira pessoa com um mundo aberto interativo, publicado pela Bandai Namco." 
+    {
+      "id": 3,
+      "imagem": "assets/img/elden-ring-500x500.jpg",
+      "title": "ELDEN RING",
+      "descricao": "Jogo de RPG de ação em terceira pessoa com um mundo aberto interativo, publicado pela Bandai Namco."
     },
-    { 
-        "id": 4,
-        "imagem": "assets/img/gta-5-button-2021-1639777058682.jpg",
-        "title": "GTA V", 
-        "descricao": "Grand Theft Auto V. É um jogo de ação aventura publicado pela Rockstar e o 7° da série GTA." 
+    {
+      "id": 4,
+      "imagem": "assets/img/gta-5-button-2021-1639777058682.jpg",
+      "title": "GTA V",
+      "descricao": "Grand Theft Auto V. É um jogo de ação aventura publicado pela Rockstar e o 7° da série GTA."
     },
-    { 
-        "id": 5,
-        "imagem": "assets/img/Need-for-Speed-Unbound.jpg",
-        "title": "NEED FOR SPEED UNNBOUN", 
-        "descricao": "Jogo de corrida publicado pela Electronic Arts, sendo o 25° jogo da franquia Need for Speed." 
+    {
+      "id": 5,
+      "imagem": "assets/img/Need-for-Speed-Unbound.jpg",
+      "title": "NEED FOR SPEED UNNBOUN",
+      "descricao": "Jogo de corrida publicado pela Electronic Arts, sendo o 25° jogo da franquia Need for Speed."
     },
-    { 
-        "id": 6,
-        "imagem": "assets/img/pokemon_visual_2x.jpg",
-        "title": "POKÉMON SCARLET AND VIOLET", 
-        "descricao": "Jogo publicado pela Nintendo, é um RPG em mundo aberto que inclui áreas urbanas e regiões selvagens e conta com 3 novos Pokémon iniciais." 
+    {
+      "id": 6,
+      "imagem": "assets/img/pokemon_visual_2x.jpg",
+      "title": "POKÉMON SCARLET AND VIOLET",
+      "descricao": "Jogo publicado pela Nintendo, é um RPG em mundo aberto que inclui áreas urbanas e regiões selvagens e conta com 3 novos Pokémon iniciais."
     }
-    ]
+  ],
+  "user": [
+    {
+      "email": "jacque@email.com",
+      "password": "1234",
+      "nome": "Jacqueline",
+      "id": "1"
+    },
+    {
+      "email": "joao@email.com",
+      "password": "$2a$10$Y4m9eevRSfAEKI98QBboY.1fgoBZ3QQ8DhpAuQUNedvXAmSveGjgS",
+      "nome": "Joao",
+      "id": "r5Wzm_z"
+    },
+    {
+      "email": "luiz@email.com",
+      "password": "$2a$10$nTNSOIAauoITuqc77oNccONiE7.uzi99mZVfdVSdBTmFwcjZUPZMS",
+      "nome": "Luiz",
+      "id": "nA70Wcz"
+    }
+  ]
 }

@@ -55,3 +55,8 @@ input {
     height: auto;
     margin-right: 5px;
 }
+p {
+    text-align: center;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+}
