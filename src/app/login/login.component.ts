@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
 
   usuarioLogado = ""
 
-  OnSubmit(){
+  onSubmit() {
     console.log(this.loginModel)
 
     /*this.loginService.login(this.loginModel).subscribe((response)=>{
@@ -34,7 +34,6 @@ export class LoginComponent implements OnInit {
     }    
 
     )*/
-
 
     let  erroEncontrado = 0;
 
@@ -60,7 +59,5 @@ export class LoginComponent implements OnInit {
         this.mensagem = respostaErro.error
       })
     }
-
-  }
-  
+  } 
 }
