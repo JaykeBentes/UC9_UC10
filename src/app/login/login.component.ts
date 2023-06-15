@@ -32,7 +32,6 @@ export class LoginComponent implements OnInit {
     }, (respostaErro)=> {
       this.mensagem = respostaErro.error
     }    
-
     )*/
 
     let  erroEncontrado = 0;
@@ -53,7 +52,6 @@ export class LoginComponent implements OnInit {
     if(erroEncontrado == 0){
 
       this.loginService.login(this.loginModel).subscribe((response)=>{
-        //console.log("Sucesso!")
         this.router.navigateByUrl('')
       },(respostaErro)=>{
         this.mensagem = respostaErro.error
